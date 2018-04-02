@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dongeler koşullar if for while vs vs </title>
+</head>
+<body>
+<h1>Button Dersi</h1>
+
+<script>
+    var a, b, c;
+    // a = 20;
+    a = 40;
+
+    b = 30;
+    c = a + b;
+    // yorum satırı tek satır
+    /*
+        çoklu yorum satırı
+     */
+
+
+    //Koşul
+    // a + b
+    // döngü sonunda true yada false döner
+    // a<b a>b a==b a<=b a>=b a!=b Karşılaştırma operatörleri
+    if (a < 40) {
+        document.write("a 40 dan küçüktür.")
+    }
+    else if (a == 40) {
+        document.write("a 40 a eşittir")
+    }
+    else {
+        document.write("a 40 dan büyüktür.")
+    }
+
+
+    document.write("<br>");
+    document.write("<br>");
+    document.write("<br>");
+    // Döngü
+    for (var i = 0; i < 10; i++) {
+        document.write(i + ". satır<br>");
+    }
+    
+    
+    function topla(a,b) {
+        return a+b;
+    }
+
+    document.write(topla(15,16));
+</script>
+
+<a href="/JScriptE-itim/index.html">Ana Sayfa</a>
+
+</body>
+</html>
