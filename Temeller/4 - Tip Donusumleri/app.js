@@ -36,4 +36,4 @@ const test = 34 + "55";
 console.log(test);
 
 const test2 = 34 + 55;
-console.log(test2 );
+console.log(test2);
